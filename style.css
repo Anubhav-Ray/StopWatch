@@ -1,0 +1,26 @@
+.start,
+.stop,
+.reset {
+  width: 6rem;
+  height: 3rem;
+  background-color: rgb(198, 70, 91);
+  border: 1px solid pink;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+}
+.hover {
+  background-color: pink;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.screen-display {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
